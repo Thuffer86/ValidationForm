@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,500' rel='stylesheet' type='text/css'>
+<link href="styling.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form name="validityForm">
+  <input type="text" id="nameBox" name="formName" placeholder="Name">
+  <input type="text" id="ageBox" name="formAge" placeholder="Age">
+  <input type="button" id="myButton" value="Valid?"
+  name="btnCheck" onclick="btnCheckForm_onclick()">
+  <h6 class="alertName"></h6>
+  <h6 class="alertAge"></h6>
+</form>
+</body>
+<script src="validation.js"></script>
+</html>
